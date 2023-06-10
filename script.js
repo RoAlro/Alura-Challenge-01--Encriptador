@@ -22,31 +22,13 @@ function removeAccents(str) {
 
 
 // Funcion de encriptación .................
-/*
+
 function encrypt(Text_2_Encrypt){
-    console.log(Text_2_Encrypt)
-    Text_2_Encrypt=removeAccents(Text_2_Encrypt);
-    console.log(Text_2_Encrypt)
-    Text_2_Encrypt=Text_2_Encrypt.toLowerCase();
-    console.log(Text_2_Encrypt)
-    
-    for(let i=0; i<encryption_key.length;i++){
-        console.log(Text_2_Encrypt)
-        console.log(encryption_key.length)
-        if(Text_2_Encrypt.includes(encryption_key[i][0])){
-            Text_2_Encrypt=Text_2_Encrypt.replaceAll(encryption_key[i][0],encryption_key[i][1]);
-        }
-    }
-    return Text_2_Encrypt;
-}
-*/
-function encrypt(Text_2_Encrypt){
-    console.log(Text_2_Encrypt)     
+      
     Text_2_Encrypt=Text_2_Encrypt.toLowerCase();
     let encryptionResult="";
     for(let i=0;i<Text_2_Encrypt.length;i++){
-        
-        console.log(Text_2_Encrypt[i]);
+      
         switch(Text_2_Encrypt[i]){
             case 'a':
                 encryption="ai";
