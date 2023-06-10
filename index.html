@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width">
+        <title> Encriptador </title>
+
+        
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="script.js">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+        
+        
+    </head>
+    
+
+    <body>
+
+        <header>
+            <div class="TITLE">
+                <img src="imgs//AluraLogoSinFondo.png" alt="logo de Alura" class="logo">    
+                <h1> Alura challenge 01 - Encriptador</h1>
+            </div>
+            
+        </header>
+
+        
+        <main>
+          <section class="Text-INPUT">
+                <h5> Texto de Entrada</h5>
+                <div class="imgText"></div>
+                <textarea class="TextArea" cols="30" rows="10" placeholder="Ingrese Texto"></textarea>
+                <div>
+                    <h6 class="Info">
+                        Solo letras mayúsculas y sin acento
+                    </h6>
+                </div>
+                <div class="buttons">
+                    <button class="btn-encriptar" onclick="btnEncrypt()"> Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDecrypt()"> Desencriptar</button>
+                </div>
+          </section>
+          <section class="Text-OUTPUT">
+            <h5> Texto de Salida</h5>
+            <textarea class="TextEncrypted" cols="30" rows="10">
+                
+
+            </textarea>
+            <button class="btn-copiar" onclick="CopyText('TextEncrypted')">Copiar</button>
+
+          </section>
+          
+            
+
+        </main>
+        
+        <footer>
+            <div class="ContactMe">
+                             
+                
+                <div class="Text-Contact">
+                    
+                    <h3>Aldo Acosta</h3>
+                    <p>Mechatronics Engineer </p> 
+                    
+                </div>
+                <div class="profileImage">  </div>                             
+                                    
+                <div class="SocialNetworks">
+
+                    <a href="https://www.linkedin.com/in/roger-aldo-acosta-baltodano/"target="_blank"><img class="RS" src="imgs/linkedin.png"></a>
+                    <a href="https://github.com/RoAlro"target="_blank"><img class="RS" src="imgs/github.png"></a>
+
+                </div>               
+                                               
+            </div>
+           
+            
+               
+        </footer>
+
+
+    <script src="script.js"></script>
+    </body>
+
+   
+   
+
+</html>
+

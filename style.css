@@ -1,0 +1,513 @@
+/*--------------- Configuración general------------------*/
+*{
+    background:  #cbd5f4;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+/*--------------- Encabezado ------------------*/
+header{
+    width: 100%;
+   
+    height: 80px;
+    background:  #0a141d;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    
+    width: 4%;
+    float: left;
+    background:  #0a141d;
+}
+
+.TITLE{
+    padding-bottom: 50px;
+    background:  #0a141d;
+}
+
+.TITLE h1{
+    background:  #0a141d;
+
+    padding-top: 1%;
+    padding-left: 5%;
+    color:#D8DFE8;
+    float: left;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+/*--------------- Principal ------------------*/
+
+main{
+   
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.Text-INPUT{
+   margin-right: 25px;  
+     
+}
+
+
+.TextArea{
+    /*background: linear-gradient(rgba(7,12,9,0.5),rgba(7,12,9,0.5));
+    background-image: url(imgs/TextInput-Image.png);
+    background-size: cover;*/
+    background-color: #6d7aa2;
+    border: #5e74b9 solid 1px;
+    color: #FFFFFF;
+    margin-top: 0;
+    text-transform: lowercase;
+    border-radius: 30px;
+    box-shadow: 0 2px 25px rgb(58, 54, 54);
+    padding: 15px;
+
+}
+
+::placeholder {color: #D8DFE8;}
+    .TextArea:focus{
+        outline: none;
+    }
+
+.Text-INPUT h5{
+       
+    padding: 5px;
+    padding-left: 25px;
+}
+
+.Info{
+    color: #495057;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.btn-encriptar{
+ background:#0A3871;
+ border: 1px solid #0A3871;
+ border-radius: 25px;
+ color: white;
+ cursor: pointer;
+ height: 50px;
+ width: 200px;
+ margin-right: 20px;
+  
+}
+
+.btn-encriptar:hover{
+    transform: scale(1.15);
+  
+}
+
+.btn-desencriptar{
+    background:#D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 25px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 50px;
+    width: 250px;
+
+}
+
+.btn-desencriptar:hover{
+    transform: scale(1.15);
+  
+}
+
+.Text-OUTPUT{
+    margin-left: 0;        
+}
+.TextEncrypted{
+    background: #FFFFFF;
+    background-image: url(imgs/img-aside.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    
+    box-shadow: 0 2px 25px rgb(58, 54, 54);
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-top: 0;
+    padding-left: 20px;
+    position: relative;
+    padding: 15px;
+}
+
+.TextEncrypted:focus{
+    outline: none;
+}
+
+.Text-OUTPUT h5{
+    padding: 5px;
+    padding-left: 25px;
+}
+.btn-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 25px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 50px;
+    width: 150px; 
+    margin-top: 0;
+    margin-left: 5%;  
+   
+}
+
+.btn-copiar:hover{
+    transform: scale(1.15);
+  
+}
+
+
+/*--------------- FOOTER ------------------*/
+
+footer{
+    background-color: #0a141d;
+    width: 100%;       
+    padding: 20px 0;
+    
+     
+ }
+
+.ContactMe{
+    background-color: #D8DFE8;
+    border: none ;
+    border-radius: 20px;
+    width: 400px;
+    height: 150px;
+    margin-left: 80px ;     
+    box-shadow: -10px 10px 10px rgb(58, 54, 54) ,10px -10px 15px rgb(58, 54, 54) ;
+ }
+.Text-Contact{
+    background-color: #D8DFE8;
+    margin-right: 5%;
+    padding-right: 5%;
+    margin-left: 1%;
+    margin-top: 2%;
+    width: 60%;
+    float: left;
+}
+
+.ContactMe h3{
+    background-color: #D8DFE8;
+    padding: 15px;
+   
+    padding-left: 50px;
+    
+    font-family: 'Inter';
+    font-size: 20px;   
+    text-align: left;
+}
+
+.profileImage{
+    background-color: #D8DFE8;
+    height: 100px;
+    width: 100px;
+    background-image: url(imgs/ProfilePhoto.jpg);
+    position: relative;
+    bottom: 0;
+    top: 5%;
+    margin-left: 50%;
+    left: 15%;
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 2px 25px rgb(58, 54, 54);
+
+   /* float: right;*/
+    align-items: center;
+    
+}
+.ContactMe p{
+    background-color: #D8DFE8;
+    padding: 15px;
+    font-family: 'Inter';
+    font-size: 20px;
+    padding-right: 0px;
+    padding-left: 50px;
+    
+}
+
+.ContactMe a{
+    background-color: #D8DFE8;
+    /* text-transform: uppercase;*/
+     color:black;
+     font-weight: bold;
+     font-size: 22px;
+     text-decoration: none;
+ }
+
+.ContactMe a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.SocialNetworks{
+    background-color: #D8DFE8;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+
+
+.RS{
+    background-color: #D8DFE8;
+    padding-left: 15px;
+    padding-bottom: 5px;    
+    width: 8%;
+}
+
+.RS:hover{
+    transform: scale(1.25);
+}
+
+/*-----------------HACIENDO RESPONSIVE ----------------------*/
+/*-------Ajustando a diferentes anchos ----------------------*/
+@media screen and (max-width:1156px) {
+    
+    main{ 
+                
+        margin-left: 10px;
+    }
+
+    .Text-INPUT{
+        margin-left: 15px;         
+     }
+    .TextEncrypted{
+        width: 450px;
+     }
+}
+
+
+@media screen and (max-width:1110px) {
+    main{ 
+                 
+        margin-left: 10px;
+    }
+    .Text-INPUT{
+        margin-left: 5px;         
+     }
+    .TextArea{
+        width: 450px;
+     }
+
+    .TextEncrypted{
+        width: 400px;
+     }
+
+
+}
+
+
+@media screen and (max-width:985px) {
+    main{ 
+        display:block;          
+        margin-left: 0;
+    }
+
+    .Text-INPUT{
+        margin-left: 15%;  
+               
+     }
+    .TextArea{
+        width: 500px;
+     }
+
+     .Text-OUTPUT{
+        margin-top: 5%;
+        margin-left: 15%;  
+               
+     }
+    .TextEncrypted{
+        width: 500px;
+     }
+       
+}
+
+
+@media screen and (max-width:660px) {
+    main{ 
+        display:block;          
+        margin-left: 0;
+    }
+
+    .Text-INPUT{
+        margin-left: 5%;  
+               
+     }
+    .TextArea{
+        width: 500px;
+        height: 350px;
+     }
+
+     .Text-OUTPUT{
+        margin-top: 5%;
+        margin-left: 5%;  
+               
+     }
+    .TextEncrypted{
+        width: 500px;
+        height: 350px;
+     }
+         
+}
+
+@media screen and (max-width:580px) {
+    main{ 
+        display:block;          
+        margin-left: 0;
+    }
+
+    .Text-INPUT{
+        margin-left: 5%;  
+               
+     }
+    .TextArea{
+        width: 400px;
+        height: 350px;
+     }
+
+     .Text-OUTPUT{
+        margin-top: 5%;
+        margin-left: 5%;  
+               
+     }
+    .TextEncrypted{
+        width: 400px;
+        height: 350px;
+     }
+    
+    .ContactMe{
+        margin-left: 10px ;            
+     }
+
+}
+
+@media screen and (max-width:463px) {
+    main{ 
+        display:block;          
+        margin-left: 0;
+    }
+
+    .Text-INPUT{
+        margin-left: 5%;  
+               
+     }
+    .TextArea{
+        width: 300px;
+        height: 350px;
+     }
+
+     .Text-OUTPUT{
+        margin-top: 5%;
+        margin-left: 5%;  
+               
+     }
+    .TextEncrypted{
+        width: 300px;
+        height: 350px;
+     }
+    
+    .ContactMe{
+        margin-left: 10px ;  
+        width: 300px;  
+        height: 160px; 
+        border-radius: 10px;       
+     }
+
+     
+    .profileImage{
+        height: 80px;
+        width: 80px;
+               
+    }
+             
+    .SocialNetworks{
+        margin-top: 5%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+    
+       
+          
+}
+
+@media screen and (max-width:362px) {
+    main{ 
+        display:block;          
+        margin-left: 0;
+    }
+
+   
+    .TextArea{
+        width: 200px;
+        height: 300px;
+     }
+
+   
+    .TextEncrypted{
+        width: 200px;
+        height: 300px;
+     }
+    
+       
+    .profileImage{
+        height: 80px;
+        width: 80px;
+               
+    }
+             
+    .btn-encriptar{        
+        font-size: 20px;
+        height: 50px;
+        width: 100px;
+        margin-right: 10px;       
+      
+    }
+    .btn-desencriptar{        
+        font-size: 20px;
+        height: 50px;
+        width: 120px;
+        margin-right: 10px;       
+      
+    }
+    .btn-copiar{        
+        font-size: 20px;
+        height: 50px;
+        width: 120px;
+        margin-right: 10px;       
+      
+    } 
+        
+    .ContactMe{
+        margin-left: 10px ;  
+        width: 240px;  
+        height: 160px; 
+        border-radius: 10px;       
+     }
+     .ContactMe h3{
+        padding: 10px;
+    }
+    .ContactMe p{
+        padding: 10px;
+    }
+
+    .SocialNetworks{
+        margin-top: 15%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+}
